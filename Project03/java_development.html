@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+     <!-- nav bar -->    
+     <nav class="navbar navbar-expand-lg bg-info ">
+        <div class="container ">
+            <img src="img/logo.png" height="50" width="50">
+            &nbsp;
+            &nbsp;
+            <a class="navbar-brand" href="#">P4N Technology</a>
+            <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item bg-white rounded-pill ps-3 pe-3 text-center m-2 shadow-lg border border-1 border-secondary">
+                    <a class="nav-link active" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item bg-white rounded-pill ps-3 pe-3 text-center m-2 shadow-lg border border-1 border-secondary">
+                    <a class="nav-link active" href="java_development.html">JAVA Devlopment</a>
+                  </li>
+                  <li class="nav-item bg-white rounded-pill ps-3 pe-3 text-center m-2 shadow-lg border border-1 border-secondary">
+                    <a class="nav-link active" href="#">IOS Development</a>
+                  </li>
+                  <li class="nav-item bg-white rounded-pill ps-3 pe-3 text-center m-2 shadow-lg border border-1 border-secondary">
+                    <a class="nav-link active" href="#">Python Development</a>
+                  </li>
+                   <li class="nav-item fs-1" data-bs-toggle="modal" data-bs-target="#login">
+                    &nbsp;
+                      <i class="bi bi-box-arrow-in-left"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+        </div>
+
+
+    </nav>
+
+    <!-- modal login  -->
+
+
+    <div class="modal" id="login">
+
+      <div class="modal-dialog modal-dialog-centered">
+
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <h1 class="modal-title fs-5">Login!</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+
+          <div class="modal-body">
+
+            
+              <form>
+
+                <div class="mb-2">
+
+                  <label class="form-label">Email</label>
+                  <input type="email" class="form-control" placeholder="joy@p4n.in"/>
+                </div>
+
+                <div class="mb-2">
+
+                  <label class="form-label">Password</label>
+                  <input type="password" class="form-control" placeholder="!@@#%$#%$#%$@sdfsfg"/>
+                </div>
+
+              </form>
+
+
+          </div>
+
+
+          <div class="modal-footer">
+           
+            <button type="button" class="btn btn-primary">Login</button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- center topic list section   -->
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <ul class="list-group" style="list-style: none;">
+                        <li class="list-group-item-light">
+                          <i class="bi bi-journal-bookmark-fill fs-1"></i>
+                          <label class="form-check-label stretched-link fs-1">First checkbox</label>
+                          <i class="bi bi-arrow-right-short fs-1 ms-4 "></i>
+                        </li>
+                        <li class="list-group-item-light">
+                            <i class="bi bi-journal-bookmark-fill fs-1"></i>
+                          <label class="form-check-label stretched-link fs-1" >Second checkbox</label>
+                        </li>
+                        <li class="list-group-item-light">
+                            <i class="bi bi-journal-bookmark-fill fs-1"></i>
+                          <label class="form-check-label stretched-link fs-1">Third checkbox</label>
+                        </li>
+                      </ul>
+                </div>
+                <div class="col-sm-6"></div>
+            </div>
+
+
+
+        </div>
+
+
+
+
+</body>
+</html>
