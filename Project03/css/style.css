@@ -1,6 +1,27 @@
-.d_menu{
+.flip-container {
+    
+    position: relative;
+   
+  }
 
-    
-    
-    
-}
+  .flip-container:hover .flipper,
+  .flip-container.hover .flipper {
+    transform: rotateY(180deg); /* Flip the card on hover */
+  }
+
+  .flipper {
+    transition: 0.6s; /* Set the transition duration */
+    transform-style: preserve-3d;
+    position: relative;
+  }
+
+  .front,
+  .back {
+   
+    position: absolute;
+    backface-visibility: hidden; /* Hide the back side when flipped */
+  }
+
+  .back {
+    transform: rotateY(180deg);
+  }
