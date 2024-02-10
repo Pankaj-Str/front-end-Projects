@@ -25,3 +25,10 @@
   .back {
     transform: rotateY(180deg);
   }
+
+  .s_button{
+
+    position: fixed;
+    margin-top: 900px;
+    margin-left: 1820px;
+  }
